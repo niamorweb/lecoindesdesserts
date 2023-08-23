@@ -27,7 +27,7 @@ export default function Home({ postList }) {
       <section className="latest-recipes px-6">
         <span className=" text-2xl font-bold ">Faites vous plaisir</span>
         <div className="overflow-auto remove-scrollbar md:overflow-visible  ">
-          <div className="flex gap-4 font-semibold mt-8 flex-nowrap ">
+          <div className="flex gap-4 remove-scrollbar font-semibold mt-8 flex-nowrap ">
             <span
               onClick={() => setCategoryDesserts("all")}
               className={`cursor-pointer whitespace-nowrap duration-75 px-3 py-1 rounded-md ${
