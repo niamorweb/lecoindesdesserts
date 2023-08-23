@@ -26,7 +26,7 @@ export default function Home({ postList }) {
     <div className="flex flex-col gap-[7rem] max-w-[1200px] m-auto">
       <section className="latest-recipes px-6">
         <span className=" text-2xl font-bold ">Faites vous plaisir</span>
-        <div className="overflow-auto md:overflow-visible  ">
+        <div className="overflow-auto remove-scrollbar md:overflow-visible  ">
           <div className="flex gap-4 font-semibold mt-8 flex-nowrap ">
             <span
               onClick={() => setCategoryDesserts("all")}
