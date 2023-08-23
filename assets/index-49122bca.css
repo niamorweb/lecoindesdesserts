@@ -1,4 +1,4 @@
-@import"https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap";body{font-family:Work Sans,sans-serif}.read-area ul{list-style:disc;display:flex;flex-direction:column;gap:.5rem}.read-area ol{list-style:decimal;display:flex;flex-direction:column;gap:.5rem}.read-area blockquote{background:rgba(75,107,251,.05);color:#4b6bfb;padding:5px 15px}/*!
+@import"https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap";remove-scrollbar::-webkit-scrollbar{display:none}body{font-family:Work Sans,sans-serif}.read-area ul{list-style:disc;display:flex;flex-direction:column;gap:.5rem}.read-area ol{list-style:decimal;display:flex;flex-direction:column;gap:.5rem}.read-area blockquote{background:rgba(75,107,251,.05);color:#4b6bfb;padding:5px 15px}/*!
  * Quill Editor v1.3.7
  * https://quilljs.com/
  * Copyright (c) 2014, Jason Chen
