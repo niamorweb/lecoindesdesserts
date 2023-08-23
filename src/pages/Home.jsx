@@ -83,7 +83,7 @@ export default function Home({ postList }) {
               categoryDesserts === "all"
             ) {
               return (
-                <NavLink to={"/desserts/" + item.slug}>
+                <NavLink to={"/lecoindesdesserts/desserts/" + item.slug}>
                   <div
                     className="p-4 border-[1px] shadow-sm border-gray-200 rounded-lg flex flex-col gap-4 items-start "
                     key={index}
