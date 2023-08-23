@@ -26,8 +26,8 @@ export default function Home({ postList }) {
     <div className="flex flex-col gap-[7rem] max-w-[1200px] m-auto">
       <section className="latest-recipes px-6">
         <span className=" text-2xl font-bold ">Faites vous plaisir</span>
-        <div className="overflow-auto remove-scrollbar md:overflow-visible  ">
-          <div className="flex gap-4 remove-scrollbar font-semibold mt-8 flex-nowrap ">
+        <div className="overflow-auto remove-scrollbar  md:overflow-visible  ">
+          <div className="flex gap-4 font-semibold mt-8 flex-nowrap ">
             <span
               onClick={() => setCategoryDesserts("all")}
               className={`cursor-pointer whitespace-nowrap duration-75 px-3 py-1 rounded-md ${
@@ -123,7 +123,7 @@ export default function Home({ postList }) {
                       <div className="flex items-center gap-2">
                         <img
                           className="w-6"
-                          src="../assets/icons/icon-persons.svg"
+                          src="lecoindesdesserts/src/assets/icons/icon-persons.svg"
                           alt=""
                         />{" "}
                         <span className="">{item.numberOfPersons}</span>
