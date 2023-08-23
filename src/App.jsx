@@ -9,7 +9,6 @@ import { getDocs, collection, deleteDoc, doc } from "firebase/firestore";
 import { auth, db } from "./firebase/firebase-config";
 import AdminLogin from "./pages/AdminLogin";
 import { useEffect, useState } from "react";
-import SearchPage from "./pages/searchPage";
 import ScrollToTop from "./scripts/ScrollToTop";
 import Edit from "./components/Edit";
 
@@ -47,10 +46,6 @@ function App() {
           <Route
             path="/desserts/:slugName"
             element={<Dessert postList={postList} isAuth={isAuth} />}
-          />
-          <Route
-            path="/search/:searchName"
-            element={<SearchPage postList={postList} />}
           />
           <Route
             path="/admin-login"

@@ -24,19 +24,6 @@ export default function Home({ postList }) {
 
   return (
     <div className="flex flex-col gap-[7rem] max-w-[1200px] m-auto">
-      <section className="hero relative px-6">
-        <img
-          className="h-[300px] w-full object-cover rounded-md"
-          src="/src/assets/images/illustration-desserts.webp"
-          alt=""
-        />
-        <div className="popup w-4/5 max-w-[600px] absolute shadow-lg left-1/2 -translate-x-1/2  top-1/2 -translate-y-1/2  gap-6 bg-white items-start p-7 rounded-xl flex justify-center ">
-          <span className="text-2xl text-center md:text-[36px] md:leading-[40px] font-semibold ">
-            Tous les desserts
-          </span>
-        </div>
-      </section>
-
       <section className="latest-recipes px-6">
         <span className=" text-2xl font-bold ">Faites vous plaisir</span>
         <div className="overflow-auto md:overflow-visible  ">
