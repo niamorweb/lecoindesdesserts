@@ -7,7 +7,7 @@ export default function SearchPage({ postList }) {
   return (
     <div>
       <div className="flex flex-col items-center gap-10">
-        <span>Resultat pour : "{searchName}"</span>
+        <span>Resultat(s) pour : "{searchName}"</span>
         {postList
           .filter((item) =>
             item.title.toLowerCase().includes(searchName.toLowerCase())
