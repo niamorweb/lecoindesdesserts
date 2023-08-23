@@ -42,21 +42,24 @@ function App() {
       <Header isAuth={isAuth} />
       <main className="mt-16  mb-36   ">
         <Routes>
-          <Route path="/" element={<Home postList={postList} />} />
           <Route
-            path="/desserts/:slugName"
+            path="/lecoindesdesserts/"
+            element={<Home postList={postList} />}
+          />
+          <Route
+            path="/lecoindesdesserts/desserts/:slugName"
             element={<Dessert postList={postList} isAuth={isAuth} />}
           />
           <Route
-            path="/admin-login"
+            path="/lecoindesdesserts/admin-login"
             element={<AdminLogin setIsAuth={setIsAuth} isAuth={isAuth} />}
           />
           <Route
-            path="/admin-management"
+            path="/lecoindesdesserts/admin-management"
             element={<AdminAutorized isAuth={isAuth} />}
           />
           <Route
-            path="/admin-edit/:editId"
+            path="/lecoindesdesserts/admin-edit/:editId"
             element={<Edit isAuth={isAuth} />}
           />
         </Routes>
