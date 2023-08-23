@@ -113,7 +113,7 @@ export default function Home({ postList }) {
                       <div className="flex items-center gap-2">
                         <img
                           className="w-6"
-                          src="/src/assets/icons/icon-time.svg"
+                          src="../assets/icons/icon-time.svg"
                           alt=""
                         />
                         <span className="">Préparation : </span>
@@ -123,7 +123,7 @@ export default function Home({ postList }) {
                       <div className="flex items-center gap-2">
                         <img
                           className="w-6"
-                          src="/src/assets/icons/icon-persons.svg"
+                          src="../assets/icons/icon-persons.svg"
                           alt=""
                         />{" "}
                         <span className="">{item.numberOfPersons}</span>
